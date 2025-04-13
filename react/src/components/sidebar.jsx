@@ -4,12 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const SIDEBAR_ITEMS = [
-	{
-		name: "Overview",
-		icon: BarChart2,
-		color: "#6366f1",
-		href: "/",
-	},
+	{name: "Overview",icon: BarChart2,color: "#6366f1",href: "/",},
 	{ name: "Products", icon: ShoppingBag, color: "#8B5CF6", href: "/products" },
 	{ name: "Users", icon: Users, color: "#EC4899", href: "/users" },
 	{ name: "Sales", icon: DollarSign, color: "#10B981", href: "/sales" },
@@ -28,7 +23,7 @@ const Sidebar = () => {
 			}`}
 			animate={{ width: isSidebarOpen ? 256 : 80 }}
 		>
-			<div className='h-full bg-gray-800 bg-opacity-50 backdrop-blur-md p-4 flex flex-col border-r border-gray-700'>
+			<div className='h-full bg-gray-800 bg-opacity-50 backdrop-blur-md p-4 flex flex-col border-r border-gray-'>
 				<motion.button
 					whileHover={{ scale: 1.1 }}
 					whileTap={{ scale: 0.9 }}

@@ -4,7 +4,7 @@ import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import ForgotPassword from "./Pages/ForgotPassword";
 import Dashboard from "./Pages/Dashboard";
-import Sidebar from "./Components/Sidebar";
+import Sidebar from "./components/sidebar";
 import logo from "./assets/nn.png";
 
 // Layout Wrapper for Pages with Sidebar
